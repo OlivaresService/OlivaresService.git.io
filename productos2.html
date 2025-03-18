@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos electronicos</title>
+    <link rel="stylesheet" href="p2.css">
+</head>
+<body>
+<header>
+        <table>
+            <tr>
+                <td><a href="index.html"><img src="logo.jpg" width="100 px" height="70px "></a></td>
+                <td><a href="Servicios.html">Servicios</a></td>
+                <td><a href="producots1.html">Cuidado personal</a></td>
+                <td><a href="productos2.html">Articulos electronicos</a></td>
+            </tr>
+        </table>
+</header>
+
+<table>
+    <tr>
+        <!--0-->
+        <td>    
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal()">
+                <img src="img/1.jpg" alt="Producto">
+                <h3>servicio X</h3>
+                <p>$99.99</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <img src="img/1.jpg" alt="Producto">
+                    <h3>servicio x</h3>
+                    <p>Descripción detallada del producto o servicio.</p>
+                </div>
+            </div>
+        </td>
+
+        <!--1-->
+        <td>
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal1()">
+                <img src="img/2.jpg" alt="Producto">
+                <h3>Servicios Y</h3>
+                <p>$98.99</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal1" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal1()">&times;</span>
+                    <img src="img/2.jpg" alt="Producto">
+                    <h3>servicios Y</h3>
+                    <p>Descripción detallada del producto o servicio.</p>
+                </div>
+            </div>
+
+        </td>
+
+        <!--2-->
+        <td> 
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal2()">
+                <img src="img/3.jpg" alt="Producto">
+                <h3>Servicios Z</h3>
+                <p>$99.99</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal2" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal2()">&times;</span>
+                    <img src="img/3.jpg" alt="Producto">
+                    <h3>servicios Z</h3>
+                    <p>Descripción detallada del producto o servicio.</p>
+                </div>
+            </div>
+        </td>
+
+        <!--3-->
+        <td>
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal3()">
+                <img src="img/3.jpg" alt="Producto">
+                <h3>Servicios XYZ</h3>
+                <p>$99.99</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal3" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal3()">&times;</span>
+                    <img src="img/3.jpg" alt="Producto">
+                    <h3>Servicios XYZ</h3>
+                    <p>Descripción detallada del producto o servicio.</p>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+ 
+    <script>
+        function openModal() {
+            document.getElementById('productModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('productModal').style.display = 'none';
+        }
+    //1
+        function openModal1() {
+            document.getElementById('productModal1').style.display = 'flex';
+        }
+
+        function closeModal1() {
+            document.getElementById('productModal1').style.display = 'none';
+        }
+    //2
+        function openModal2() {
+            document.getElementById('productModal2').style.display = 'flex';
+        }
+
+        function closeModal2() {
+            document.getElementById('productModal2').style.display = 'none';
+        }
+     //3
+     function openModal3() {
+            document.getElementById('productModal3').style.display = 'flex';
+        }
+
+        function closeModal3() {
+            document.getElementById('productModal3').style.display = 'none';
+        }
+
+     //4
+     function openModal() {
+            document.getElementById('productModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('productModal').style.display = 'none';
+        }
+     //5
+     function openModal() {
+            document.getElementById('productModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('productModal').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>

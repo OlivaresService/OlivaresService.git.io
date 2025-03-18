@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="ind.css">
+</head>
+<body>
+<header>
+        <table>
+            <tr>
+                <td><a href="index.html"><img src="logo.jpg" width="100 px" height="70px "></a></td>
+                <td><a href="Servicios.html">Servicios</a></td>
+                <td><a href="producots1.html">Cuidado personal</a></td>
+                <td><a href="productos2.html">Articulos electronicos</a></td>
+            </tr>
+        </table>
+</header>
+
+    <br><br>    
+
+    <table>
+    <th><p>Ofertas Especiales</p></th>
+</table>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="slide active">
+                <img src="img/p1/20.jpg" alt="Imagen 1">
+            </div>
+            <div class="slide">
+                <img src="img/p1/2.jpg" alt="Imagen 2">
+            </div>
+          
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+
+    <table>
+        <tr>
+            <td> Arvore Productos</td>
+        </tr>
+    </table>
+    <div class="grid-container">
+        <a href="Servicios.html" class="box" style="background-image: url('img/p1/1.jpg');">
+            <div class="content">
+                <h2>Conoce nuestros servcios</h2>
+            </div>
+        </a>
+
+        <a href="producots1.html" class="box" style="background-image: url('img/p1/2.jpg');">
+            <div class="content">
+                <h2>Descubre los mejores productos para el cuidado personal</h2>
+            </div>
+        </a>
+
+        <a href="productos2.html" class="box" style="background-image: url('img/p1/3.jpg');">
+            <div class="content">
+                <h2>Lo mejores instrumentos para tu cuidado</h2>
+            </div>
+        </a>
+    </div>
+
+<script>
+        let index = 0;
+
+function moveSlide(step) {
+    const slides = document.querySelectorAll(".slide");
+    index += step;
+
+    if (index >= slides.length) {
+        index = 0;
+    } else if (index < 0) {
+        index = slides.length - 1;
+    }
+
+    document.querySelector(".carousel").style.transform = `translateX(${-index * 100}%)`;
+}
+
+// Cambio automático cada 5 segundos
+setInterval(() => moveSlide(1), 5000);
+
+</script>
+
+</body>
+</html>
