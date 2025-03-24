@@ -94,6 +94,10 @@ th, td {
     width: 300px;
     text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
 }
 
 .modal-content img {
