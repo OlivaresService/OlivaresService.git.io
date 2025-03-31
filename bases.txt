@@ -1,0 +1,254 @@
+        <!--0-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal1()">
+                <img src="img/p1/0.jpg" alt="Producto">
+                <h3>Splash coporal</h3>
+                <p>$271</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal1" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal1()">&times;</span>
+                    <img src="img/p1/0.jpg" alt="Producto">
+                    <h3>Splash corporal</h3>
+                    <p>Refresca y perfuma tu piel con el Splash Corporal de Natura. Su fragancia ligera y 
+                        envolvente te acompaña durante todo el día, brindando una sensación de frescura y bienestar.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--1-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">    
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal()">
+                <img src="img/p1/1.jpg" alt="Producto">
+                <h3>Balsamo post afeitado</h3>
+                <p>$99</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <img src="img/p1/1.jpg" alt="Producto">
+                    <h3>Balsamo post afeitado</h3>
+                    <p>Calma y revitaliza tu piel después del afeitado con el Bálsamo Post-Afeitado de Natura. Su fórmula ligera y de 
+                    rápida absorción reduce la irritación, hidrata intensamente y deja una sensación refrescante y confortable.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--2-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4"> 
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal2()">
+                <img src="img/p1/42.jpg" alt="Producto">
+                <h3>Booster Hidratante facial</h3>
+                <p>$328</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal2" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal2()">&times;</span>
+                    <img src="img/p1/42.jpg" alt="Producto">
+                    <h3>Booster Hidratante facial</h3>
+                    <p>Hidratación intensa y revitalización inmediata con el Booster Hidratante Facial de Natura.
+                    Su fórmula ligera y de rápida absorción deja tu piel suave, luminosa y protegida durante todo el día.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--3-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal3()">
+                <img src="img/p1/12.jpg" alt="Producto">
+                <h3>Spray texturizador</h3>
+                <p>$209</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal3" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal3()">&times;</span>
+                    <img src="img/p1/12.jpg" alt="Producto">
+                    <h3>Spray texturizador</h3>
+                    <p>Consigue un cabello con volumen, movimiento y textura natural con el
+                        Spray Texturizador de Natura. Perfecto para lograr peinados con efecto despeinado y ondas definidas sin rigidez.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--4-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">    
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal4()">
+                <img src="img/p1/13.jpg" alt="Producto">
+                <h3>Base liquida</h3>
+                <p>$180</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal4" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal4()">&times;</span>
+                    <img src="img/p1/13.jpg" alt="Producto">
+                    <h3>Base liquida</h3>
+                    <p>Consigue un acabado natural y radiante con la Base Líquida de Natura.
+                        Su fórmula liviana se adapta a tu piel, proporcionando cobertura uniforme, hidratación y larga duración.</p>
+                </div>
+            </div>
+        </div>
+    
+        <!--5-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal5()">
+                <img src="img/p1/14.jpg" alt="Producto">
+                <h3>Shampo cabello y barba</h3>
+                <p>$99</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal5" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal5()">&times;</span>
+                    <img src="img/p1/14.jpg" alt="Producto">
+                    <h3>Shampo cabello y barba</h3>
+                    <p>Limpieza y frescura en un solo paso con el Shampoo para Cabello y Barba de Natura. 
+                        Su fórmula suave elimina impurezas, hidrata y deja una sensación de bienestar durante todo el día.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--6-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4"> 
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal6()">
+                <img src="img/p1/15.jpg" alt="Producto">
+                <h3>Primer facial</h3>
+                <p>$295</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal6" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal6()">&times;</span>
+                    <img src="img/p1/15.jpg" alt="Producto">
+                    <h3>Primer facial</h3>
+                    <p>Prepara tu piel para un maquillaje impecable con el Primer Facial de Natura. 
+                    Su fórmula alisa, minimiza poros y prolonga la duración del maquillaje, dejando un acabado suave y uniforme.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--7-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal7()">
+                <img src="img/p1/16.jpg" alt="Producto">
+                <h3>Mascara para pestañas negra</h3>
+                <p>$135</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal7" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal7()">&times;</span>
+                    <img src="img/p1/16.jpg" alt="Producto">
+                    <h3>Mascara para pestañas negra</h3>
+                    <p>Define, alarga y da volumen a tus pestañas con la Máscara para Pestañas Negra de Natura. 
+                        Su fórmula de larga duración realza tu mirada sin grumos ni manchas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--8-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal8()">
+                <img src="img/p1/20.jpg" alt="Producto">
+                <h3>Labial Natura</h3>
+                <p>$75</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal8" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal8()">&times;</span>
+                    <img src="img/p1/20.jpg" alt="Producto">
+                    <h3>Labial Natura</h3>
+                    <p>Color intenso, hidratación y confort en un solo paso con el Labial de Natura. 
+                        Su fórmula cremosa se desliza suavemente, proporcionando un acabado vibrante y de larga duración.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--9-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del producto -->
+            <div class="product-card" onclick="openModal9()">
+                <img src="img/p1/21.jpg" alt="Producto">
+                <h3>Servicios XYZ</h3>
+                <p>$99.99</p>
+            </div>
+        
+            <!-- MODAL - Ventana Flotante -->
+            <div id="productModal9" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal9()">&times;</span>
+                    <img src="img/p1/21.jpg" alt="Producto">
+                    <h3>Servicios XYZ</h3>
+                    <p>Descripción detallada del producto o servicio.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+             //46
+     function openModal46() {
+            document.getElementById('productModal46').style.display = 'flex';
+        }
+
+        function closeModal46() {
+            document.getElementById('productModal46').style.display = 'none';
+        }
+
+     //47
+     function openModal47() {
+            document.getElementById('productModal47').style.display = 'flex';
+        }
+
+        function closeModal47() {
+            document.getElementById('productModal47').style.display = 'none';
+        }
+     //48
+     function openModal48() {
+            document.getElementById('productModal48').style.display = 'flex';
+        }
+
+        function closeModal48() {
+            document.getElementById('productModal48').style.display = 'none';
+        }
+    //49
+    function openModal49() {
+            document.getElementById('productModal49').style.display = 'flex';
+        }
+
+        function closeModal49() {
+            document.getElementById('productModal49').style.display = 'none';
+        }
+    //50
+        function openModal50() {
+            document.getElementById('productModal50').style.display = 'flex';
+        }
+
+        function closeModal50() {
+            document.getElementById('productModal50').style.display = 'none';
+        }

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
     <link rel="stylesheet" href="s.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -24,143 +23,1720 @@
         </table>
 </header>
 
-<table>
-    <tr>
-        <!--0-->
-        <td>    
-            <!-- Tarjeta del producto -->
-            <div class="product-card" onclick="openModal()">
-                <img src="img/1.jpg" alt="Producto">
-                <h3>servicio X</h3>
-                <p>$99.99</p>
-            </div>
-        
-            <!-- MODAL - Ventana Flotante -->
-            <div id="productModal" class="modal">
-                <div class="modal-content">
-                    <span class="close-btn" onclick="closeModal()">&times;</span>
-                    <img src="img/1.jpg" alt="Producto">
-                    <h3>servicio x</h3>
-                    <p>Descripción detallada del producto o servicio.</p>
-                </div>
-            </div>
-        </td>
 
-        <!--1-->
-        <td>
-            <!-- Tarjeta del producto -->
-            <div class="product-card" onclick="openModal1()">
-                <img src="img/2.jpg" alt="Producto">
-                <h3>Servicios Y</h3>
-                <p>$98.99</p>
+<div class="container mt-4">
+    <div class="row">
+
+    <div class="container">
+            <h1 class="display-3 text-center">TRATAMIENTOS CORPORALES</h1>
+    </div>
+
+        <!-- 1 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4"> 
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal1()">
+                <h3>Masaje relajante</h3>
+                <p>$490</p>
             </div>
 
             <!-- MODAL - Ventana Flotante -->
-            <div id="productModal1" class="modal">
+            <div id="serviceModal1" class="modal">
                 <div class="modal-content">
                     <span class="close-btn" onclick="closeModal1()">&times;</span>
-                    <img src="img/2.jpg" alt="Producto">
-                    <h3>servicios Y</h3>
-                    <p>Descripción detallada del producto o servicio.</p>
+                    <h3>Masaje relajante</h3>
+                    <p>Disfruta de una experiencia única de relajación con nuestro Masaje Relajante. Este tratamiento está diseñado para aliviar tensiones, reducir el estrés y mejorar tu bienestar general. Utilizando técnicas suaves y fluidas, se trabaja sobre los músculos y puntos de presión para
+                        liberar tensiones acumuladas, promoviendo la circulación y proporcionando una sensación de calma y serenidad. </p>
                 </div>
             </div>
+        </div>
 
-        </td>
-
-        <!--2-->
-        <td> 
-            <!-- Tarjeta del producto -->
-            <div class="product-card" onclick="openModal2()">
-                <img src="img/3.jpg" alt="Producto">
-                <h3>Servicios Z</h3>
-                <p>$99.99</p>
+        <!-- 2-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal2()">
+                <h3>Masaje descontracturante</h3>
+                <p>$530</p>
             </div>
-        
+
             <!-- MODAL - Ventana Flotante -->
-            <div id="productModal2" class="modal">
+            <div id="serviceModal2" class="modal">
                 <div class="modal-content">
                     <span class="close-btn" onclick="closeModal2()">&times;</span>
-                    <img src="img/3.jpg" alt="Producto">
-                    <h3>servicios Z</h3>
-                    <p>Descripción detallada del producto o servicio.</p>
+                    <h3>Masaje descontracturante</h3>
+                    <p>El Masaje Descontracturante está diseñado para aliviar tensiones musculares profundas y contracturas. Utilizando técnicas más intensas, se trabaja sobre áreas específicas del cuerpo donde se acumula la rigidez muscular. 
+                        Este masaje no solo reduce el dolor y la incomodidad, sino que también mejora la movilidad, promueve la circulación y favorece la recuperación muscular.</p>
                 </div>
             </div>
-        </td>
+        </div>
 
-        <!--3-->
-        <td>
-            <!-- Tarjeta del producto -->
-            <div class="product-card" onclick="openModal3()">
-                <img src="img/3.jpg" alt="Producto">
-                <h3>Servicios XYZ</h3>
-                <p>$99.99</p>
+        <!-- 3 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal3()">
+                <h3>Masaje de piedras calientes</h3>
+                <p>$530</p>
             </div>
-        
+
             <!-- MODAL - Ventana Flotante -->
-            <div id="productModal3" class="modal">
+            <div id="serviceModal3" class="modal">
                 <div class="modal-content">
                     <span class="close-btn" onclick="closeModal3()">&times;</span>
-                    <img src="img/3.jpg" alt="Producto">
-                    <h3>Servicios XYZ</h3>
-                    <p>Descripci detallada del producto o servicio.</p>
+                    <h3>Masaje de piedras calientes</h3>
+                    <p>El Masaje de Piedras Calientes combina la terapia del calor con un masaje relajante para aliviar tensiones y mejorar la circulación. Las piedras volcánicas calentadas se colocan estratégicamente en puntos clave del cuerpo, mientras el terapeuta realiza movimientos suaves para liberar
+                         el estrés y la rigidez muscular. Este tratamiento ayuda a calmar el sistema nervioso, promoviendo una sensación profunda de bienestar y relajación total. </p>
                 </div>
             </div>
-        </td>
+        </div>
+
+        <!-- 4 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal4()">
+                <h3>Masaje de pindas</h3>
+                <p>$530</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal4" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal4()">&times;</span>
+                    <h3>Masaje de pindas</h3>
+                    <p>El Masaje de Pindas es una técnica de relajación que utiliza bolsas de hierbas calientes, conocidas como pindas, las cuales se aplican sobre el cuerpo para aliviar tensiones y promover la circulación. Las pindas, llenas de aceites esenciales y hierbas naturales, se calientan y se aplican con suaves movimientos, 
+                        brindando una experiencia sensorial única. Este masaje ayuda a desintoxicar el cuerpo, mejorar la elasticidad de la piel y relajar los músculos profundamente.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal5()">
+                <h3>Masaje deportivo</h3>
+                <p>$530</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal5" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal5()">&times;</span>
+                    <h3>Masaje deportivo</h3>
+                    <p>El Masaje Deportivo está diseñado para aliviar el estrés y la tensión muscular en personas activas o deportistas. Utilizando técnicas específicas y presiones profundas, 
+                        se enfoca en áreas de alta tensión y fatiga muscular, ayudando a mejorar la flexibilidad, prevenir lesiones y acelerar la recuperación post-entrenamiento.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal6()">
+                <h3>Masaje de tejido profundo</h3>
+                <p>$630</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal6" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal6()">&times;</span>
+                    <h3>Masaje de tejido profundo</h3>
+                    <p>El Masaje de Tejido Profundo se enfoca en las capas más profundas de los músculos y tejidos conectivos para liberar tensiones crónicas y contracturas. Mediante movimientos lentos y fuertes,
+                         el terapeuta trabaja en áreas específicas del cuerpo, ayudando a aliviar dolores musculares, mejorar la circulación y restaurar el equilibrio corporal.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 7 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal7()">
+                <h3>Tratamiento Quirofisico (Hidroterapia, Masaje y
+                    Terapia Altermativa)</h3>
+                <p>$630</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal7" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal7()">&times;</span>
+                    <h3>Tratamiento Quirofisico (Hidroterapia, Masaje y
+                        Terapia Altermativa)</h3>
+                    <p>El Tratamiento Quirofísico combina hidroterapia, técnicas de masaje y terapias alternativas para ofrecer un enfoque integral de bienestar. La hidroterapia utiliza agua caliente y fría para mejorar la circulación y aliviar dolores musculares, mientras que el masaje ayuda a 
+                        liberar tensiones y reducir el estrés. Las terapias alternativas, como la acupresión o la aromaterapia, se integran para equilibrar el cuerpo y la mente.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 8 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal8()">
+                <h3>Tratamiento Quirofisico por parte</h3>
+                <p>$350</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal8" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal8()">&times;</span>
+                    <h3>Tratamiento Quirofisico por parte</h3>
+                    <p>El Tratamiento Quirofísico por Parte se enfoca en intervenciones personalizadas, combinando técnicas de hidroterapia, masajes terapéuticos y terapias alternativas para tratar de forma específica las necesidades de cada paciente. A través de un enfoque 
+                        detallado y profesional, se abordan áreas problemáticas del cuerpo, mejorando la movilidad, reduciendo dolores y restaurando el equilibrio físico.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal9()">
+                <h3>Masaje de drenaje linfatico</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal9" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal9()">&times;</span>
+                    <h3>Masaje de drenaje linfatico</h3>
+                    <p>El Masaje de Drenaje Linfático es una técnica suave y rítmica que estimula el sistema linfático para mejorar la circulación y eliminar toxinas del cuerpo. A través de movimientos 
+                        específicos, este masaje ayuda a reducir la retención de líquidos, alivia la inflamación y favorece la desintoxicación natural del organismo. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 10 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal10()">
+                <h3>Masaje shiatzu con técnica china completo (sin
+                    aceites)</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal10" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal10()">&times;</span>
+                    <h3>Masaje shiatzu con técnica china completo (sin
+                        aceites)</h3>
+                    <p>El Masaje Shiatsu con Técnica China Completo es una terapia que combina los principios del shiatsu japonés y las técnicas de presión de la medicina tradicional china. Utilizando los dedos, las palmas y los codos,
+                        se aplican presiones específicas sobre los puntos de acupresión del cuerpo para equilibrar la energía, aliviar tensiones y mejorar la circulación. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 11 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal11()">
+                <h3>Quiromasaje</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal11" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal11()">&times;</span>
+                    <h3>Quiromasaje</h3>
+                    <p>El Quiromasaje es una técnica manual que combina diversos tipos de masajes para aliviar tensiones musculares, mejorar la circulación y promover el bienestar general. Utilizando movimientos de presión, fricción y amasamiento, se enfoca en liberar contracturas, 
+                        reducir el dolor y mejorar la flexibilidad.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 12-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal12()">
+                <h3>Masaje terapeutico</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal12" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal12()">&times;</span>
+                    <h3>Masaje terapeutico</h3>
+                    <p>El Masaje Terapéutico está diseñado para aliviar dolores musculares y mejorar el bienestar físico y emocional. A través de técnicas específicas, como el amasamiento, la fricción y
+                     la presión controlada, se trabaja sobre áreas tensas o doloridas para liberar contracturas y mejorar la circulación.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 13 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal3()">
+                <h3>Paquete craneal suave con masje</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal3" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal3()">&times;</span>
+                    <h3>Paquete craneal suave con masje</h3>
+                    <p>El Paquete Craneal Suave con Masaje ofrece una experiencia relajante que se enfoca en aliviar tensiones y estrés acumulados en la cabeza, cuello y hombros. A través de suaves masajes en el cuero cabelludo, se estimulan puntos de presión para mejorar la circulación, reducir dolores
+                        de cabeza y promover una sensación de calma profunda.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 14 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal14()">
+                <h3>Paquete craneal agresivo con masaje</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal14" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal14()">&times;</span>
+                    <h3>Paquete craneal agresivo con masaje</h3>
+                    <p>El Paquete Craneal Agresivo con Masaje está diseñado para quienes buscan un alivio más intenso de las tensiones y dolores en la cabeza, cuello y hombros. A través de técnicas más profundas y fuertes, se aplican masajes en puntos específicos del cuero cabelludo y la zona cervical
+                        para liberar bloqueos musculares y mejorar la circulación sanguínea.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 15 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal15()">
+                <h3>Masaje reductivo</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal15" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal15()">&times;</span>
+                    <h3>Masaje reductivo</h3>
+                    <p>El Masaje Reductivo es un tratamiento que se enfoca en reducir la acumulación de grasa localizada, especialmente en áreas como abdomen, muslos y caderas. Utilizando técnicas profundas de amasamiento y presión, este masaje estimula la circulación, mejora la
+                        elasticidad de la piel y favorece la eliminación de toxinas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="display-3 text-center">TRATAMIENTOS CORPORALES</h1>
+        </div>
+
+        <!-- 16 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal16()">
+                <h3>Tratamiento reductivo y reafirmante con
+                    aparatologia (RF, Cavitacion, Fototerpia o
+                    Corriente Galvanica)</h3>
+                <p>$530</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal16" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal16()">&times;</span>
+                    <h3>Tratamiento reductivo y reafirmante con
+                        aparatologia (RF, Cavitacion, Fototerpia o
+                        Corriente Galvanica)</h3>
+                    <p>Este tratamiento combina tecnología avanzada con técnicas de aparatología para reducir la grasa localizada y reafirmar la piel de manera eficaz. Con Radiofrecuencia (RF), se estimula la producción de colágeno y se mejora la firmeza de la piel. La Cavitación ayuda a reducir la grasa subcutánea, mientras que la Fototerapia y la
+                        Corriente Galvánica favorecen la circulación y la tonificación.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 17 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal17()">
+                <h3>Tratamiento reductivo con vendas por parte o
+                    hieloterapia</h3>
+                <p>$530</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal17" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal17()">&times;</span>
+                    <h3>Tratamiento reductivo con vendas por parte o
+                        hieloterapia</h3>
+                    <p>Este tratamiento utiliza vendas reductoras o hieloterapia para ayudar a reducir la grasa localizada y mejorar la circulación. Las vendas aplicadas sobre el cuerpo están impregnadas con activos que favorecen la eliminación de toxinas y la tonificación de la piel, mientras que la hieloterapia, mediante
+                    el uso de frío, activa el metabolismo y acelera la quema de grasa. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 18 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal18()">
+                <h3>Tratamiento reductivo con vendas ( o hieloterapia) y
+                    mascarilla por parte</h3>
+                <p>$620</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal18" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal18()">&times;</span>
+                    <h3>Tratamiento reductivo con vendas ( o hieloterapia) y
+                        mascarilla por parte</h3>
+                    <p>Este tratamiento combina vendas reductoras o hieloterapia con una mascarilla especializada para ofrecer resultados completos en la reducción de grasa y la mejora de la firmeza de la piel. Las vendas o el frío terapéutico estimulan la circulación y aceleran la quema de grasa, mientras que la mascarilla aplicada en cada parte del cuerpo 
+                        proporciona nutrientes que ayudan a tonificar y reafirmar la piel. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 19 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal19()">
+                <h3>Tratamiento de fango corporal (Incluye exfoliación,
+                    masaje relajante, y envoltura de cuerpo)
+                    </h3>
+                <p>$800</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal19" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal19()">&times;</span>
+                    <h3>Tratamiento de fango corporal (Incluye exfoliación,
+                        masaje relajante, y envoltura de cuerpo)
+                        </h3>
+                    <p>Este tratamiento rejuvenecedor incluye una exfoliación corporal para eliminar células muertas, seguida de un masaje relajante que alivia tensiones y mejora la circulación. Finalmente, una envoltura de fango corporal se aplica para desintoxicar, hidratar y reafirmar 
+                        la piel, aprovechando las propiedades purificantes del fango. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 20 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal20()">
+                <h3>ratamiento fango corporal espalda (Incluye
+                    exfoliacion, mascarilla y masaje)</h3>
+                <p>$350</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal20" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal20()">&times;</span>
+                    <h3>ratamiento fango corporal espalda (Incluye
+                        exfoliacion, mascarilla y masaje)</h3>
+                    <p>Este tratamiento está diseñado para purificar y revitalizar la piel de la espalda. Comienza con una exfoliación para eliminar impurezas y células muertas, seguida de una mascarilla de fango que absorbe toxinas y mejora la textura de la piel. El tratamiento finaliza con 
+                        un masaje relajante que alivia tensiones y mejora la circulación.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 21 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal21()">
+                        <h3>Masaje relajante para niños (menores de 12 años)</h3>
+                        <p>$260</p>
+                    </div>
         
-    </tr>
-</table>
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal21" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal21()">&times;</span>
+                            <h3>Masaje relajante para niños (menores de 12 años)</h3>
+                            <p>El Masaje Relajante para Niños está especialmente diseñado para ayudar a los más pequeños a liberar tensiones, reducir el estrés y mejorar su bienestar general. Con movimientos suaves y adaptados a su delicada piel y 
+                                estructura muscular, este masaje promueve la relajación, mejora el sueño y favorece la circulación.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <div class="container">
+            <h1 class="display-3 text-center">TRATAMIENTOS FACIAL</h1>
+        </div>
+
+        <!-- 22-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal22()">
+                        <h3>Limpieza Facial (calor, exfoliación, mascarilla y roció
+                            de vitaminas)</h3>
+                        <p>$215</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal22" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal22()">&times;</span>
+                            <h3>Limpieza Facial (calor, exfoliación, mascarilla y roció
+                                de vitaminas)</h3>
+                            <p>La Limpieza Facial es un tratamiento completo que comienza con la aplicación de calor para abrir los poros y facilitar la eliminación de impurezas. Luego, se realiza una exfoliación suave para remover células muertas y lograr una piel más fresca. Después, se aplica una mascarilla adaptada a las necesidades de la piel, seguida de un rociado de vitaminas para hidratar y revitalizar. Este tratamiento ayuda a purificar, iluminar
+                                y mantener la piel suave y saludable, dejándola fresca y renovada.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 23 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal23()">
+                        <h3>Tratamiento facial con aparatologia para combatir
+                            signos de la edad y acne ( con RF o Corriente
+                            Galvanica )</h3>
+                        <p>$494</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal23" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal23()">&times;</span>
+                            <h3>Tratamiento facial con aparatologia para combatir
+                                signos de la edad y acne ( con RF o Corriente
+                                Galvanica )</h3>
+                            <p>Este tratamiento combina tecnología avanzada para combatir tanto los signos de la edad como el acné. Utilizando Radiofrecuencia (RF) o Corriente Galvánica, se estimula la producción de colágeno, reduce arrugas y mejora la firmeza de la piel. Al mismo tiempo, estos dispositivos ayudan a limpiar profundamente los poros, regulando la 
+                                producción de sebo y mejorando la textura de la piel propensa al acné. </p>
+                        </div>
+                    </div>
+        </div>
+
+        <div class="container">
+            <h1 class="display-3 text-center">TRATAMIENTOS MANOS Y PIES</h1>
+        </div>
+
+        <!-- 24 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal24()">
+                        <h3>Feet Tense (masaje relajante de piernas y pies con
+                            mascarilla)</h3>
+                        <p>$350</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal24" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal24()">&times;</span>
+                            <h3>Feet Tense (masaje relajante de piernas y pies con
+                                mascarilla)</h3>
+                            <p>El Feet Tense es un tratamiento perfecto para aliviar la tensión acumulada en piernas y pies. Comienza con un masaje relajante que estimula la circulación y reduce la fatiga muscular. Luego, se aplica una mascarilla especialmente formulada para hidratar y 
+                                suavizar la piel, dejando una sensación de frescura y bienestar. </p>
+                        </div>
+                    </div>
+        </div>
+     
+        <!-- 25 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal25()">
+                        <h3>Manicure</h3>
+                        <p>$125</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal25" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal25()">&times;</span>
+                            <h3>Manicure</h3>
+                            <p>El Manicure es un tratamiento completo para embellecer y cuidar tus uñas y manos. Incluye la limpieza, forma y cuidado de las uñas, así como un suave masaje en las manos para relajarlas. Puedes elegir entre una variedad de colores y acabados de esmalte para darle un toque personal a tus uñas. Ideal para mantener tus manos suaves, bien cuidadas y con 
+                                un aspecto elegante. Perfecto para un look fresco y sofisticado.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 26 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal26()">
+                        <h3>Spa Manicure</h3>
+                        <p>$215</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal26" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal26()">&times;</span>
+                            <h3>Spa Manicure</h3>
+                            <p>El Spa Manicure es un tratamiento más completo y relajante para tus manos y uñas. Además de la limpieza, forma y esmaltado de las uñas, incluye un exfoliante suave para remover células muertas y un masaje hidratante que deja tus manos y cutículas completamente renovadas. Para finalizar, se aplica una mascarilla
+                                nutritiva para suavizar y hidratar profundamente la piel. I</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 27 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal27()">
+                        <h3>Spa Manicure con Gelish</h3>
+                        <p>$296</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal27" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal27()">&times;</span>
+                            <h3>Spa Manicure con Gelish</h3>
+                            <p>El Spa Manicure con Gelish ofrece un cuidado intensivo para tus manos y uñas, combinando un tratamiento relajante con la durabilidad del esmalte de gel. Incluye exfoliación, hidratación profunda mediante un masaje y una mascarilla nutritiva, seguida de la aplicación de Gelish, un esmalte de gel de larga duración que
+                                ofrece un acabado brillante y resistente, sin dañar tus uñas naturales.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 28 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal28()">
+                        <h3>Pedicure</h3>
+                        <p>$215</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal28" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal28()">&times;</span>
+                            <h3>Pedicure</h3>
+                            <p>El Pedicure es un tratamiento completo para cuidar y embellecer tus pies. Incluye limpieza, corte y forma de las uñas, así como el cuidado de las cutículas. Además, se realiza una exfoliación suave para remover células muertas y un masaje relajante que ayuda a aliviar la tensión acumulada en los pies. Se puede finalizar con la
+                                aplicación de esmalte para darles un acabado elegante y fresco. </p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 29 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal29()">
+                        <h3>Pedicure con Gelish</h3>
+                        <p>$295</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal29" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal29()">&times;</span>
+                            <h3>Pedicure con Gelish</h3>
+                            <p>El Pedicure con Gelish ofrece un tratamiento completo para tus pies, combinando cuidados básicos con la durabilidad del esmalte de gel. Después de una limpieza profunda, corte y forma de uñas, se realiza una exfoliación y masaje relajante para suavizar la piel. Luego, se aplica Gelish, un esmalte de gel de larga duración que 
+                                asegura un acabado brillante, resistente y libre de imperfecciones.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 30 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal30()">
+                        <h3>Spa Pedicure</h3>
+                        <p>$260</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal30" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal30()">&times;</span>
+                            <h3>Spa Pedicure</h3>
+                            <p>El Spa Pedicure es un tratamiento de lujo para tus pies que no solo embellece, sino que también proporciona una experiencia de relajación total. Comienza con un baño de pies en agua tibia y exfoliación para eliminar células muertas, seguido de un masaje hidratante para suavizar y rejuvenecer la piel. Además, se realiza el cuidado de uñas y cutículas, y se aplica una mascarilla nutritiva para dejar los pies suaves y renovados.
+                                Finaliza con un esmalte de tu elección para un acabado perfecto.</p>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- 31 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal31()">
+                <h3>Spa Pedicure con Gelish</h3>
+                <p>$341</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal31" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal31()">&times;</span>
+                    <h3>Spa Pedicure con Gelish</h3>
+                    <p>El Spa Pedicure con Gelish es un tratamiento de lujo que combina el cuidado intensivo de tus pies con la durabilidad del esmalte de gel. Comienza con un baño relajante, seguido de una exfoliación suave y un masaje hidratante para dejar tus pies completamente renovados. Después, se realiza el cuidado de uñas y cutículas, aplicando Gelish, un esmalte de gel de larga duración 
+                        que proporciona un acabado brillante, resistente y sin manchas. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 32-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal32()">
+                <h3>Spa Tratamiento Rejuvenecedor para Manos</h3>
+                <p>$215</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal32" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal32()">&times;</span>
+                    <h3>Spa Tratamiento Rejuvenecedor para Manos</h3>
+                    <p>El Spa Tratamiento Rejuvenecedor para Manos es un tratamiento especializado para devolver frescura y vitalidad a tus manos. Comienza con una exfoliación suave para eliminar las células muertas, seguida de un masaje hidratante con cremas nutritivas para rejuvenecer la piel. Luego, se aplica una mascarilla revitalizante que ayuda a mejorar la textura de la piel y reducir los signos de envejecimiento, como manchas o arrugas. 
+                        Este tratamiento deja tus manos suaves, hidratadas y con un aspecto rejuvenecido.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 33 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal33()">
+                <h3>Spa Tratamiento Rejuvenecedor para Manos y Gelish</h3>
+                <p>$296</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal33" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal33()">&times;</span>
+                    <h3>Spa Tratamiento Rejuvenecedor para Manos y Gelish</h3>
+                    <p>El Spa Tratamiento Rejuvenecedor para Manos con Gelish es una experiencia completa que combina el cuidado intensivo de tus manos con un acabado duradero. Comienza con una exfoliación suave y un masaje hidratante para nutrir y rejuvenecer la piel. Luego, se aplica una mascarilla revitalizante para mejorar la textura y combatir signos de envejecimiento. Finalmente, se aplica Gelish, un esmalte de gel
+                        de larga duración, que garantiza un acabado brillante y resistente.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 34 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal34()">
+                <h3>Eliminacion de uñas con tratamiento</h3>
+                <p>$170</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal34" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal34()">&times;</span>
+                    <h3>Eliminacion de uñas con tratamiento</h3>
+                    <p>La Eliminación de Uñas con Tratamiento es un proceso profesional que no solo retira el esmalte o las uñas artificiales de manera segura, sino que también cuida la salud de tus uñas naturales. Se utiliza un tratamiento nutritivo para hidratar y fortalecer las uñas durante el proceso, evitando daños. Además, se realiza una 
+                        exfoliación suave y un masaje hidratante para dejar las uñas y cutículas en óptimas condiciones.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 35 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal35()">
+                <h3>Aplicacion de Gelish
+                </h3>
+                <p>$152</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal35" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal35()">&times;</span>
+                    <h3>Aplicacion de Gelish
+                    </h3>
+                    <p>La Aplicación de Gelish es un tratamiento de esmalte de gel de larga duración que proporciona un acabado brillante, suave y resistente. Se aplica sobre las uñas naturales o artificiales, proporcionando un esmalte que dura más tiempo sin deteriorarse, agrietarse o perder su color. Ideal para quienes buscan unas uñas impecables, con un acabado elegante y duradero. Este proceso también incluye el 
+                        cuidado básico de las uñas, garantizando un resultado profesional y de alta calidad.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 36 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal36()">
+                <h3>Esmaltado
+                </h3>
+                <p>$80</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal36" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal36()">&times;</span>
+                    <h3>Esmaltado
+                    </h3>
+                    <p>El Esmaltado es el proceso de aplicar esmalte en las uñas para darles color y un acabado perfecto. Puede ser realizado con diferentes tipos de esmaltes, incluyendo acabados brillantes, mate, o metálicos, y se adapta a las preferencias del cliente. Este servicio también incluye la limpieza y el cuidado
+                        básico de las uñas, dejándolas con un aspecto pulido y elegante. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1 class="display-3 text-center">SERVICIOS DE ESTETICA</h1>
+        </div>
+
+        <!-- 37 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal37()">
+                <h3>Corte de Caballero (con limpieza facial)</h3>
+                <p>$150</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal37" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal37()">&times;</span>
+                    <h3>Corte de Caballero (con limpieza facial)</h3>
+                    <p>El Corte de Caballero con Limpieza Facial es un servicio completo que no solo incluye el corte de cabello personalizado según tu estilo, sino también una limpieza profunda del rostro. Comienza con un corte de cabello que resalta tus mejores rasgos, seguido de una limpieza 
+                        facial que elimina impurezas, hidrata la piel y mejora su textura.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 38 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal38()">
+                <h3>Corte de Dama con ondas de agua</h3>
+                <p>$170</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal38" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal38()">&times;</span>
+                    <h3>Corte de Dama con ondas de agua</h3>
+                    <p>El Corte de Dama con Ondas de Agua es una opción elegante y moderna que combina un corte de cabello a medida con un estilo suave y voluminoso de ondas. 
+                        Las ondas de agua proporcionan un look natural y fluido, que da movimiento y textura al cabello. </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 39 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal39()">
+                <h3>Keratina</h3>
+                <p>$800</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal39" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal39()">&times;</span>
+                    <h3>Keratina</h3>
+                    <p>El tratamiento de Keratina es un proceso especializado que ayuda a alisar, suavizar y rejuvenecer el cabello. A través de la aplicación de una fórmula a base de proteínas de queratina, se sella la cutícula del cabello, lo que ayuda a reducir el frizz, mejorar la textura y darle un brillo saludable. Es ideal para quienes tienen cabello rizado, encrespado o 
+                        dañado, proporcionando un cabello más manejable, suave y brillante, con resultados duraderos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 40 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal40()">
+                <h3>Botox capilar</h3>
+                <p>$550</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal40" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal40()">&times;</span>
+                    <h3>Botox capilar</h3>
+                    <p>El Botox Capilar es un tratamiento revitalizante que repone nutrientes esenciales y regenera el cabello dañado. A través de una fórmula rica en proteínas, vitaminas y antioxidantes, este tratamiento rellena las fibras capilares, eliminando el frizz y mejorando la textura y el brillo. Ideal para cabellos secos, maltratados o con puntas abiertas, el botox capilar deja el cabello más suave, hidratado, con más volumen y 
+                        un aspecto saludable. Perfecto para restaurar la vitalidad y elasticidad del cabello de manera profunda.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 41 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal41()">
+                        <h3>Aplicacion de tinte
+                            Cabello corto</h3>
+                        <p>$250</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal41" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal41()">&times;</span>
+                            <h3>Aplicacion de tinte
+                                Cabello corto</h3>
+                            <p>El tinte para cabello corto es rápido y preciso, brindando un color uniforme y vibrante. Ideal para quienes desean 
+                                cambiar su look con poco mantenimiento y resultados duraderos.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 42-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal42()">
+                        <h3>Aplicacion de tinte
+                            Cabello mediano</h3>
+                        <p>$350</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal42" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal42()">&times;</span>
+                            <h3>Aplicacion de tinte
+                                Cabello mediano</h3>
+                            <p>El tinte para cabello mediano cubre perfectamente el largo intermedio, proporcionando un acabado suave y un color brillante. 
+                                Es perfecto para quienes buscan un cambio sutil o un retoque completo.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 43 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal43()">
+                        <h3>Aplicacion de tinte
+                            Cabello largo</h3>
+                        <p>$400</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal43" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal43()">&times;</span>
+                            <h3>Aplicacion de tinte
+                                Cabello largo</h3>
+                            <p>La aplicación de tinte en cabello largo garantiza una cobertura completa y un color intenso de raíz a puntas. Es ideal para quienes desean un cambio radical o mantener el color en
+                                 cabellos largos, asegurando una distribución uniforme del tinte.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 44 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal44()">
+                        <h3>Bayalage</h3>
+                        <p>$750</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal44" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal44()">&times;</span>
+                            <h3>Bayalage</h3>
+                            <p>El Balayage es una técnica de coloración en la que se aplican tonos de manera libre y manual, creando un efecto de transición suave y natural. A diferencia de los métodos tradicionales de tinte, el balayage ilumina el cabello con un degradado sutil desde las raíces hasta las puntas, proporcionando un look fresco y de bajo mantenimiento. Esta técnica es ideal para quienes buscan un 
+                                cambio de color suave, con un resultado muy natural y lleno de dimensión. Perfecto para lograr un cabello luminoso y radiante con un toque personalizado.</p>
+                        </div>
+                    </div>
+        </div>
+     
+        <!-- 45 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal45()">
+                        <h3>Rayos</h3>
+                        <p>$700</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal45" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal45()">&times;</span>
+                            <h3>Rayos</h3>
+                            <p>Los Rayos son una técnica de coloración en la que se aplican reflejos más claros en secciones específicas del cabello, creando un contraste sutil o más marcado, dependiendo del estilo deseado. Esta técnica ilumina el cabello, proporcionando un look radiante y de más dimensión. Es 
+                                ideal para quienes buscan un cambio de color con un acabado natural y luminoso, sin necesidad de un mantenimiento frecuente.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 46 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal46()">
+                        <h3>Cortina de color</h3>
+                        <p>$450</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal46" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal46()">&times;</span>
+                            <h3>Cortina de color</h3>
+                            <p>La Cortina de Color es una técnica de coloración que consiste en aplicar tonos de color de manera vertical, creando un efecto de "cortina" que resalta el contorno del rostro y las capas del cabello. Este estilo se caracteriza por un degradado suave y sutil, dando más profundidad y movimiento al cabello. Es ideal para quienes 
+                                buscan un look natural pero con un toque de frescura y dinamismo, ya que resalta las facciones y aporta luminosidad al rostro.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 47 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal47()">
+                        <h3>Depilación de bozo</h3>
+                        <p>$60</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal47" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal47()">&times;</span>
+                            <h3>Depilación de bozo</h3>
+                            <p>La depilación de bozo es un tratamiento estético que elimina el vello no deseado en el área del labio superior. Se puede realizar con cera, hilo o cera tibia, dependiendo de la preferencia y tipo de piel. Este procedimiento 
+                                deja la piel suave, libre de vello y con un acabado limpio y natural. </p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 48 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal48()">
+                        <h3>Depilación de cejas</h3>
+                        <p>$90</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal48" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal48()">&times;</span>
+                            <h3>Depilación de cejas</h3>
+                            <p>La depilación de cejas es un tratamiento estético que da forma a las cejas, eliminando el vello no deseado para resaltar los ojos y enmarcar el rostro. Se puede realizar con cera, pinzas o hilo, dependiendo de la técnica preferida y el tipo de piel. Este servicio ayuda a lograr una forma definida y natural de las cejas, adaptada a la estructura facial, 
+                                para un look limpio y equilibrado. Ideal para quienes buscan una definición perfecta y un acabado impecable en la zona de las cejas.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 49 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal49()">
+                        <h3>Depilación de barbilla</h3>
+                        <p>$50</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal49" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal49()">&times;</span>
+                            <h3>Depilación de barbilla</h3>
+                            <p>La depilación de barbilla es un tratamiento estético que elimina el vello no deseado en la zona de la barbilla, ayudando a lograr una piel suave y libre de vello. Se puede realizar mediante cera, pinzas o hilo, dependiendo del tipo de piel y la preferencia del cliente. Este servicio es ideal para quienes desean un acabado limpio y 
+                                definido en el área del mentón, proporcionando una sensación de frescura y mayor confianza.</p>
+                        </div>
+                    </div>
+        </div>
+        
+        <!-- 50 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal50()">
+                        <h3>Depilación de patilla</h3>
+                        <p>$60</p>
+                    </div>
+        
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal50" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal50()">&times;</span>
+                            <h3>Depilación de patilla</h3>
+                            <p>La depilación de patilla consiste en eliminar el vello no deseado en la zona de las patillas, es decir, a lo largo de la línea del cabello cerca de las orejas. Este tratamiento se puede realizar con cera, pinzas o hilo, dependiendo de la técnica preferida.
+                                Ayuda a definir y dar forma al contorno de la cara, logrando una línea más limpia y ordenada. </p>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- 51 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <!-- Tarjeta del servicio -->
+            <div class="service-card" onclick="openModal51()">
+                <h3>Deilación de mejillas</h3>
+                <p>$80</p>
+            </div>
+
+            <!-- MODAL - Ventana Flotante -->
+            <div id="serviceModal51" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn" onclick="closeModal51()">&times;</span>
+                    <h3>Deilación de mejillas</h3>
+                    <p>La depilación de mejillas es un tratamiento que elimina el vello no deseado en la zona de las mejillas, dejando la piel suave y libre de vello. Se puede realizar con cera, hilo o pinzas, dependiendo del tipo de piel y la preferencia del cliente. Este servicio es ideal para quienes desean una apariencia más limpia y suave en el rostro, eliminando 
+                        el vello fino o más notorio en las mejillas, logrando una piel más uniforme y radiante.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 52-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal52()">
+                        <h3>Depilación de frente</h3>
+                        <p>$60</p>
+                    </div>
+
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal52" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal52()">&times;</span>
+                            <h3>Depilación de frente</h3>
+                            <p>La depilación de frente se enfoca en eliminar el vello no deseado en la zona de la frente, que incluye el área sobre las cejas y a lo largo del cabello. Este tratamiento se puede realizar con cera, hilo o pinzas, dependiendo de la técnica preferida y el tipo de piel. Es ideal para quienes buscan una apariencia más limpia, suave y definida en la zona frontal del rostro, 
+                                logrando un acabado preciso y libre de vello, para una piel más uniforme y radiante.</p>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- 53 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal53()">
+                        <h3>Depilación de axilas</h3>
+                        <p>$150</p>
+                    </div>
+
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal53" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal53()">&times;</span>
+                            <h3>Depilación de axilas</h3>
+                            <p>La depilación de axilas es un tratamiento efectivo para eliminar el vello no deseado en la zona de las axilas, proporcionando una piel suave y libre de vello. Se puede realizar con cera, crema depilatoria, pinzas o hilo, según la preferencia del cliente y el tipo de piel. Este servicio no solo ayuda a mantener las axilas limpias y sin vello, sino que también previene la irritación y 
+                                el mal olor, dejando la piel suave y fresca. Ideal para quienes buscan un acabado impecable y duradero en esta zona del cuerpo.</p>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- 54 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal54()">
+                        <h3>Depilación de piernas (muslos, rodillas, chamorros y
+                            tobillos)</h3>
+                        <p>$400</p>
+                    </div>
+
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal54" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal54()">&times;</span>
+                            <h3>Depilación de piernas (muslos, rodillas, chamorros y
+                                tobillos)</h3>
+                            <p>La depilación de piernas es un tratamiento completo que elimina el vello no deseado en toda la extensión de las piernas, incluyendo muslos, rodillas, chamorros y tobillos. Se puede realizar con cera, hilo o crema depilatoria, dependiendo de la técnica preferida y el tipo de piel. Este servicio deja las piernas suaves, suaves al tacto y libres de vello por un largo período de tiempo. 
+                                Ideal para quienes buscan una piel más suave, tersa y sin vello, logrando un acabado uniforme y duradero.</p>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- 55 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal55()">
+                        <h3>Depilación de media pierna</h3>
+                        <p>$200</p>
+                    </div>
+
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal55" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal55()">&times;</span>
+                            <h3>Depilación de media pierna</h3>
+                            <p>La depilación de media pierna se enfoca en eliminar el vello no deseado desde la parte superior de la pierna hasta las rodillas, dejando la piel suave y libre de vello. Este tratamiento se puede realizar con cera, hilo o crema depilatoria, según las preferencias del cliente y el tipo de piel. Ideal para quienes desean mantener las piernas suaves y bien cuidadas, logrando un acabado 
+                                limpio y duradero en la zona de media pierna. Perfecto para quienes buscan comodidad con un mínimo de mantenimiento.</p>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- 56 -->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta del servicio -->
+                    <div class="service-card" onclick="openModal56()">
+                        <h3>Depilación de bikini</h3>
+                        <p>$300</p>
+                    </div>
+
+                    <!-- MODAL - Ventana Flotante -->
+                    <div id="serviceModal56" class="modal">
+                        <div class="modal-content">
+                            <span class="close-btn" onclick="closeModal56()">&times;</span>
+                            <h3>Depilación de bikini</h3>
+                            <p>La depilación de bikini se centra en eliminar el vello no deseado de la zona del bikini, proporcionando una apariencia más limpia y definida. Este tratamiento se puede realizar con cera, hilo o crema depilatoria, dependiendo de las preferencias y el tipo de piel. Es ideal para quienes buscan mantener la zona íntima libre de vello de manera eficaz y duradera, 
+                                logrando un acabado suave, cómodo y preciso. Perfecto para quienes desean una depilación discreta y de larga duración en esta zona.</p>
+                        </div>
+                    </div>
+        </div>
+
+
+
+    </div> 
+</div>
 
  
-    <script>
-        function openModal() {
-            document.getElementById('productModal').style.display = 'flex';
-        }
-
-        function closeModal() {
-            document.getElementById('productModal').style.display = 'none';
-        }
+<script>
     //1
         function openModal1() {
-            document.getElementById('productModal1').style.display = 'flex';
+            document.getElementById('serviceModal1').style.display = 'flex';
         }
 
         function closeModal1() {
-            document.getElementById('productModal1').style.display = 'none';
+            document.getElementById('serviceModal1').style.display = 'none';
         }
     //2
         function openModal2() {
-            document.getElementById('productModal2').style.display = 'flex';
+            document.getElementById('serviceModal2').style.display = 'flex';
         }
 
         function closeModal2() {
-            document.getElementById('productModal2').style.display = 'none';
+            document.getElementById('serviceModal2').style.display = 'none';
         }
      //3
      function openModal3() {
-            document.getElementById('productModal3').style.display = 'flex';
+            document.getElementById('serviceModal3').style.display = 'flex';
         }
 
         function closeModal3() {
-            document.getElementById('productModal3').style.display = 'none';
+            document.getElementById('serviceModal3').style.display = 'none';
         }
 
      //4
-     function openModal() {
-            document.getElementById('productModal').style.display = 'flex';
+     function openModal4() {
+            document.getElementById('serviceModal4').style.display = 'flex';
         }
 
-        function closeModal() {
-            document.getElementById('productModal').style.display = 'none';
+        function closeModal4() {
+            document.getElementById('serviceModal4').style.display = 'none';
         }
      //5
-     function openModal() {
-            document.getElementById('productModal').style.display = 'flex';
+     function openModal5() {
+            document.getElementById('serviceModal5').style.display = 'flex';
         }
 
-        function closeModal() {
-            document.getElementById('productModal').style.display = 'none';
+        function closeModal5() {
+            document.getElementById('serviceModal5').style.display = 'none';
         }
-    </script>
+    //6
+    function openModal6() {
+            document.getElementById('serviceModal6').style.display = 'flex';
+        }
+
+        function closeModal6() {
+            document.getElementById('serviceModal6').style.display = 'none';
+        }
+    //7
+        function openModal7() {
+            document.getElementById('serviceModal7').style.display = 'flex';
+        }
+
+        function closeModal7() {
+            document.getElementById('serviceModal7').style.display = 'none';
+        }
+     //8
+     function openModal8() {
+            document.getElementById('serviceModal8').style.display = 'flex';
+        }
+
+        function closeModal8() {
+            document.getElementById('serviceModal8').style.display = 'none';
+        }
+
+     //9
+     function openModal9() {
+            document.getElementById('serviceModal9').style.display = 'flex';
+        }
+
+        function closeModal9() {
+            document.getElementById('serviceModal9').style.display = 'none';
+        }
+     //10 auqi
+     function openModal10() {
+            document.getElementById('serviceModal10').style.display = 'flex';
+        }
+
+        function closeModal10() {
+            document.getElementById('serviceModal10').style.display = 'none';
+        }
+
+
+    //11aaaaaaa
+    function openModal11() {
+            document.getElementById('serviceModal11').style.display = 'flex';
+        }
+
+        function closeModal11() {
+            document.getElementById('serviceModal11').style.display = 'none';
+        }
+    //12
+        function openModal12() {
+            document.getElementById('serviceModal12').style.display = 'flex';
+        }
+
+        function closeModal12() {
+            document.getElementById('serviceModal12').style.display = 'none';
+        }
+     //13
+     function openModal13() {
+            document.getElementById('serviceModal13').style.display = 'flex';
+        }
+
+        function closeModal13() {
+            document.getElementById('serviceModal13').style.display = 'none';
+        }
+
+     //14
+     function openModal14() {
+            document.getElementById('serviceModal14').style.display = 'flex';
+        }
+
+        function closeModal14() {
+            document.getElementById('serviceModal14').style.display = 'none';
+        }
+     //15
+     function openModal15() {
+            document.getElementById('serviceModal15').style.display = 'flex';
+        }
+
+        function closeModal15() {
+            document.getElementById('serviceModal15').style.display = 'none';
+        }
+    //16
+    function openModal16() {
+            document.getElementById('serviceModal16').style.display = 'flex';
+        }
+
+        function closeModal16() {
+            document.getElementById('serviceModal16').style.display = 'none';
+        }
+    //17
+        function openModal17() {
+            document.getElementById('serviceModal17').style.display = 'flex';
+        }
+
+        function closeModal17() {
+            document.getElementById('serviceModal17').style.display = 'none';
+        }
+     //18
+     function openModal18() {
+            document.getElementById('serviceModal18').style.display = 'flex';
+        }
+
+        function closeModal18() {
+            document.getElementById('serviceModal18').style.display = 'none';
+        }
+
+     //19
+     function openModal19() {
+            document.getElementById('serviceModal19').style.display = 'flex';
+        }
+
+        function closeModal19() {
+            document.getElementById('serviceModal19').style.display = 'none';
+        }
+     //20
+     function openModal20() {
+            document.getElementById('serviceModal20').style.display = 'flex';
+        }
+
+        function closeModal20() {
+            document.getElementById('serviceModal20').style.display = 'none';
+        }
+    //21
+    function openModal21() {
+            document.getElementById('serviceModal21').style.display = 'flex';
+        }
+
+        function closeModal21() {
+            document.getElementById('serviceModal21').style.display = 'none';
+        }
+    //22
+        function openModal22() {
+            document.getElementById('serviceModal22').style.display = 'flex';
+        }
+
+        function closeModal22() {
+            document.getElementById('serviceModal22').style.display = 'none';
+        }
+     //23
+     function openModal23() {
+            document.getElementById('serviceModal23').style.display = 'flex';
+        }
+
+        function closeModal23() {
+            document.getElementById('serviceModal23').style.display = 'none';
+        }
+
+     //24
+     function openModal24() {
+            document.getElementById('serviceModal24').style.display = 'flex';
+        }
+
+        function closeModal24() {
+            document.getElementById('serviceModal24').style.display = 'none';
+        }
+     //25
+     function openModal25() {
+            document.getElementById('serviceModal25').style.display = 'flex';
+        }
+
+        function closeModal25() {
+            document.getElementById('serviceModal25').style.display = 'none';
+        }
+    //26
+    function openModal26() {
+            document.getElementById('serviceModal26').style.display = 'flex';
+        }
+
+        function closeModal26() {
+            document.getElementById('serviceModal26').style.display = 'none';
+        }
+    //27
+       function openModal27() {
+            document.getElementById('serviceModal27').style.display = 'flex';
+        }
+
+        function closeModal27() {
+            document.getElementById('serviceModal27').style.display = 'none';
+        }
+    //28
+        function openModal28() {
+            document.getElementById('serviceModal28').style.display = 'flex';
+        }
+
+        function closeModal28() {
+            document.getElementById('serviceModal28').style.display = 'none';
+        }
+    //29
+        function openModal29() {
+            document.getElementById('serviceModal29').style.display = 'flex';
+        }
+
+        function closeModal29() {
+            document.getElementById('serviceModal29').style.display = 'none';
+        }
+
+    //30
+        function openModal30() {
+            document.getElementById('serviceModal30').style.display = 'flex';
+        }
+
+        function closeModal30() {
+            document.getElementById('serviceModal30').style.display = 'none';
+        }
+     //31
+        function openModal31() {
+            document.getElementById('serviceModal31').style.display = 'flex';
+        }
+
+        function closeModal31() {
+            document.getElementById('serviceModal31').style.display = 'none';
+        }
+
+     //32
+        function openModal32() {
+            document.getElementById('serviceModal32').style.display = 'flex';
+        }
+
+        function closeModal32() {
+            document.getElementById('serviceModal32').style.display = 'none';
+        }
+     //33
+        function openModal33() {
+            document.getElementById('serviceModal33').style.display = 'flex';
+        }
+
+        function closeModal33() {
+            document.getElementById('serviceModal33').style.display = 'none';
+        }
+    //34
+        function openModal34() {
+            document.getElementById('serviceModal34').style.display = 'flex';
+        }
+
+        function closeModal34() {
+            document.getElementById('serviceModal34').style.display = 'none';
+        }
+    //35
+        function openModal35() {
+            document.getElementById('serviceModal35').style.display = 'flex';
+        }
+
+        function closeModal35() {
+            document.getElementById('serviceModal35').style.display = 'none';
+        }
+     //36
+     function openModal36() {
+            document.getElementById('serviceModal36').style.display = 'flex';
+        }
+
+        function closeModal36() {
+            document.getElementById('serviceModal36').style.display = 'none';
+        }
+
+     //37
+     function openModal37() {
+            document.getElementById('serviceModal37').style.display = 'flex';
+        }
+
+        function closeModal37() {
+            document.getElementById('serviceModal37').style.display = 'none';
+        }
+     //38
+     function openModal38() {
+            document.getElementById('serviceModal38').style.display = 'flex';
+        }
+
+        function closeModal38() {
+            document.getElementById('serviceModal38').style.display = 'none';
+        }
+    //39
+    function openModal39() {
+            document.getElementById('serviceModal39').style.display = 'flex';
+        }
+
+        function closeModal39() {
+            document.getElementById('serviceModal39').style.display = 'none';
+        }
+    //40
+        function openModal40() {
+            document.getElementById('serviceModal40').style.display = 'flex';
+        }
+
+        function closeModal40() {
+            document.getElementById('serviceModal40').style.display = 'none';
+        }
+     //41
+     function openModal41() {
+            document.getElementById('serviceModal41').style.display = 'flex';
+        }
+
+        function closeModal41() {
+            document.getElementById('serviceModal41').style.display = 'none';
+        }
+
+     //42
+     function openModal42() {
+            document.getElementById('serviceModal42').style.display = 'flex';
+        }
+
+        function closeModal42() {
+            document.getElementById('serviceModal42').style.display = 'none';
+        }
+     //43
+     function openModal43() {
+            document.getElementById('serviceModal43').style.display = 'flex';
+        }
+
+        function closeModal43() {
+            document.getElementById('serviceModal43').style.display = 'none';
+        }
+    //44
+    function openModal44() {
+            document.getElementById('serviceModal44').style.display = 'flex';
+        }
+
+        function closeModal44() {
+            document.getElementById('serviceModal44').style.display = 'none';
+        }
+    //45
+        function openModal45() {
+            document.getElementById('serviceModal45').style.display = 'flex';
+        }
+
+        function closeModal45() {
+            document.getElementById('serviceModal45').style.display = 'none';
+        }
+
+    //46
+     function openModal46() {
+            document.getElementById('serviceModal46').style.display = 'flex';
+        }
+
+        function closeModal46() {
+            document.getElementById('serviceModal46').style.display = 'none';
+        }
+
+     //47
+     function openModal47() {
+            document.getElementById('serviceModal47').style.display = 'flex';
+        }
+
+        function closeModal47() {
+            document.getElementById('serviceModal47').style.display = 'none';
+        }
+     //48
+     function openModal48() {
+            document.getElementById('serviceModal48').style.display = 'flex';
+        }
+
+        function closeModal48() {
+            document.getElementById('serviceModal48').style.display = 'none';
+        }
+    //49
+    function openModal49() {
+            document.getElementById('serviceModal49').style.display = 'flex';
+        }
+
+        function closeModal49() {
+            document.getElementById('serviceModal49').style.display = 'none';
+        }
+    //50
+        function openModal50() {
+            document.getElementById('serviceModal50').style.display = 'flex';
+        }
+
+        function closeModal50() {
+            document.getElementById('serviceModal50').style.display = 'none';
+        }
+
+    //51
+        function openModal51() {
+            document.getElementById('serviceModal51').style.display = 'flex';
+        }
+
+        function closeModal51() {
+            document.getElementById('serviceModal51').style.display = 'none';
+        }
+
+     //52
+        function openModal52() {
+            document.getElementById('serviceModal52').style.display = 'flex';
+        }
+
+        function closeModal52() {
+            document.getElementById('serviceModal52').style.display = 'none';
+        }
+     //53
+        function openModal53() {
+            document.getElementById('serviceModal53').style.display = 'flex';
+        }
+
+        function closeModal53() {
+            document.getElementById('serviceModal53').style.display = 'none';
+        }
+    //54
+        function openModal54() {
+            document.getElementById('serviceModal54').style.display = 'flex';
+        }
+
+        function closeModal54() {
+            document.getElementById('serviceModal54').style.display = 'none';
+        }
+    //55
+        function openModal55() {
+            document.getElementById('serviceModal55').style.display = 'flex';
+        }
+
+        function closeModal55() {
+            document.getElementById('serviceModal55').style.display = 'none';
+        }
+     //56
+     function openModal56() {
+            document.getElementById('serviceModal56').style.display = 'flex';
+        }
+
+        function closeModal56() {
+            document.getElementById('serviceModal56').style.display = 'none';
+        }
+
+     //57
+     function openModal57() {
+            document.getElementById('serviceModal57').style.display = 'flex';
+        }
+
+        function closeModal57() {
+            document.getElementById('serviceModal57').style.display = 'none';
+        }
+     //58
+     function openModal58() {
+            document.getElementById('serviceModal58').style.display = 'flex';
+        }
+
+        function closeModal58() {
+            document.getElementById('serviceModal58').style.display = 'none';
+        }
+    //59
+    function openModal59() {
+            document.getElementById('serviceModal59').style.display = 'flex';
+        }
+
+        function closeModal59() {
+            document.getElementById('serviceModal59').style.display = 'none';
+        }
+    //60
+        function openModal60() {
+            document.getElementById('serviceModal60').style.display = 'flex';
+        }
+
+        function closeModal60() {
+            document.getElementById('serviceModal60').style.display = 'none';
+        }
+
+    //61
+        function openModal61() {
+            document.getElementById('serviceModal61').style.display = 'flex';
+        }
+
+        function closeModal61() {
+            document.getElementById('serviceModal61').style.display = 'none';
+        }
+
+     //62
+        function openModal62() {
+            document.getElementById('serviceModal62').style.display = 'flex';
+        }
+
+        function closeModal62() {
+            document.getElementById('serviceModal62').style.display = 'none';
+        }
+     //63
+        function openModal63() {
+            document.getElementById('serviceModal63').style.display = 'flex';
+        }
+
+        function closeModal63() {
+            document.getElementById('serviceModal63').style.display = 'none';
+        }
+    //64
+        function openModal64() {
+            document.getElementById('serviceModal64').style.display = 'flex';
+        }
+
+        function closeModal64() {
+            document.getElementById('serviceModal64').style.display = 'none';
+        }
+    //65
+        function openModal65() {
+            document.getElementById('serviceModal65').style.display = 'flex';
+        }
+
+        function closeModal65() {
+            document.getElementById('serviceModal65').style.display = 'none';
+        }
+     //66
+     function openModal66() {
+            document.getElementById('serviceModal66').style.display = 'flex';
+        }
+
+        function closeModal66() {
+            document.getElementById('serviceModal66').style.display = 'none';
+        }
+
+     //67
+     function openModal67() {
+            document.getElementById('serviceModal67').style.display = 'flex';
+        }
+
+        function closeModal67() {
+            document.getElementById('serviceModal67').style.display = 'none';
+        }
+     //68
+     function openModal68() {
+            document.getElementById('serviceModal68').style.display = 'flex';
+        }
+
+        function closeModal68() {
+            document.getElementById('serviceModal68').style.display = 'none';
+        }
+    //69
+    function openModal69() {
+            document.getElementById('serviceModal69').style.display = 'flex';
+        }
+
+        function closeModal69() {
+            document.getElementById('serviceModal69').style.display = 'none';
+        }
+    //70
+        function openModal70() {
+            document.getElementById('serviceModal70').style.display = 'flex';
+        }
+
+        function closeModal70() {
+            document.getElementById('serviceModal70').style.display = 'none';
+        }
+</script>
+
 
     
 </body>
